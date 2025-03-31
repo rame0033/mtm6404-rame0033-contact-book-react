@@ -29,7 +29,7 @@ export const Add = () => {
 
     return (
         <div>
-            <div className="nav d-flex justify-content-between">
+            <div className="sub-nav d-flex justify-content-between">
                 <Link className="btn btn-secondary" to="/">Return to List</Link>
                 <Link className="btn btn-secondary" to="/add">{'\u002B'}</Link>
             </div>

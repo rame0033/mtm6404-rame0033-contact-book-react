@@ -18,7 +18,8 @@ td, tr{
   width:100%;
 }
 
-.control {
+.control,
+.sub-nav {
   width: 80%;
   align-items: center;
   margin: 1rem auto 0 auto;
@@ -26,6 +27,8 @@ td, tr{
   border-radius: 0.5rem;
   border: 0.25rem solid #eaeaea;
 }
+
+
 
 h1{
   font-size: 2rem;
