@@ -16,6 +16,7 @@ td, tr{
   display: flex;
   align-items: center;
   width:100%;
+  border-radius: 0.5rem;
 }
 
 .control,
@@ -58,4 +59,13 @@ td a{
 
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .table,
+  .control,
+  .sub-nav,
+  .contact-details{
+    width: 50%;
+  }
 }
